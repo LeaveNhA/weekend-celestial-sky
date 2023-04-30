@@ -14,6 +14,7 @@ Originally forked from https://github.com/kkga/nibar. And I heavly changed it to
 
 ![img](./ss.login.png)
 ![img](./ss.initial.png)
+![img](./ss.development.png)
 
 ## Installation
 
