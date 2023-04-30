@@ -4,7 +4,7 @@ Simple [Übersicht](https://github.com/felixhageloh/uebersicht) widget status ba
 
 Originally forked from https://github.com/ajdnik/powerbar. I made it work with yabai and tweaked the aesthetics to match my preference.
 
-![img](./ss.png)
+![img](./ss.initial.png)
 
 ## Installation
 
