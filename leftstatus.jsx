@@ -10,12 +10,12 @@ import styles from "./lib/styles.jsx";
 const style = {
     display: "flex",
     padding: "6px 12px",
-    "justifyContent": "space-between",
+    "justifyContent": "flex-start",
     "alignItems": "center",
     gap: "30px",
     position: "fixed",
     overflow: "hidden",
-    right: "0px",
+    left: "0px",
     top: "0px",
     "borderRadius": "500px",
     color: styles.colors.dim,
@@ -27,12 +27,25 @@ const style = {
     background: styles.bg
 };
 
+const imageStyle = {
+    height: "25px",
+    borderRadius: "9px",
+    aspectRatio: "1/1"
+};
+
+const textStyle = {
+    color: styles.palette[0],
+};
+
 export const refreshFrequency = 10000;
 
-export const command = "./nibar/scripts/status.sh";
+export const command = "./nibar/scripts/leftstatus.sh";
 
 export const render = ({ output }) => {
     const data = parse(output);
+    console.info(data);
+    const profilePictureData = data.user.profilePicture;
+
     if (typeof data === "undefined") {
         return (
             <div style={style}>
@@ -40,12 +53,11 @@ export const render = ({ output }) => {
             </div>
         );
     }
+
     return (
         <div style={style}>
-          <Battery output={data.battery} />
-          <Cpu output={data.cpu} />
-          <DateTime output={data.datetime} />
-          <Dnd output={data.dnd} />
+          <img style={imageStyle} src={"data:image/jpeg;base64," + profilePictureData} />
+          <span style={textStyle}>{data.user.fullName}</span>
         </div>
     );
 };

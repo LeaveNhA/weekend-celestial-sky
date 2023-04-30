@@ -4,16 +4,17 @@ const render = ({ output }) => {
   let charging = output.charging;
   let percentage = output.percentage;
   let remaining = output.remaining;
+
   return (
     <div>
       <div
         style={
           percentage < 10 && charging == false
-            ? { color: styles.colors.red }
-            : null
+            ? { color: styles.palette[4] }
+            : { color: styles.palette[0]}
         }
       >
-        <span>{charging ? "􀋦" : null} {percentage}%</span>
+        <span>􀋦 {percentage}%</span>
       </div>
     </div>
   );

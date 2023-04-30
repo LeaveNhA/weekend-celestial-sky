@@ -23,6 +23,7 @@ export const refreshFrequency = false;
 export const command = "./nibar/scripts/spaces.sh";
 
 export const render = ({ output }, ...args) => {
+  return <div></div>;
   const data = parse(output);
   if (typeof data === "undefined") {
     return (

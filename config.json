@@ -1,4 +1,5 @@
 {
-  "windows_offset_left": "280px",
-  "windows_label_max_width": "30ch"
+    "windows_offset_left": "280px",
+    "windows_label_max_width": "30ch",
+    "widget.allow-external-scripts": true
 }

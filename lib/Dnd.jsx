@@ -1,11 +1,11 @@
 import styles from "./styles.jsx";
 
 const style = {
-  color: styles.colors.red
+  color: styles.palette[0]
 }
 
 const render = ({ output }) => {
-  if (output === 0) return null;
+  if (output == 0) return null;
   return <div style={style}>􀆺</div>;
 };
 
