@@ -25,6 +25,10 @@ Clone this repo to your Übersicht widgets directory.
 $ git clone https://github.com/LeaveNhA/snow-white-nibar.git $HOME/Library/Application\ Support/Übersicht/widgets/snowwhite-nibar
 ```
 
+### Font
+
+As font, widget uses `Hack Nerd Font`.
+
 ### Alacritty Theme configuration
 
 You should add the theme colors into your Alacritty configuration in ~/.config/alacritty/alacritty.yml
