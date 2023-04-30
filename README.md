@@ -8,7 +8,7 @@ Originally forked from https://github.com/kkga/nibar. And I heavly changed it to
 
 ### Wallpaper
 
-![img](./wallapeper.jpg)
+![img](./wallpaper.jpg)
 
 ### Usage screen-shots
 
