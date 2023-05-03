@@ -22,7 +22,7 @@ Clone this repo to your Übersicht widgets directory.
 
 ```bash
 # assuming your widgets are in the default Übersicht location
-$ git clone https://github.com/LeaveNhA/snow-white-nibar.git $HOME/Library/Application\ Support/Übersicht/widgets/snowwhite-nibar
+$ git clone https://github.com/LeaveNhA/weekend-celestial-sky.git $HOME/Library/Application\ Support/Übersicht/widgets/celestial-blue-nibar
 ```
 
 ### Font
