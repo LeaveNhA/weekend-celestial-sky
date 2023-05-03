@@ -1,4 +1,4 @@
-# [WeekEnd] Snow White
+# [WeekEnd] Celestial Sky
 
 Simple [Übersicht](https://github.com/felixhageloh/uebersicht) widget status bar with [yabai](https://github.com/koekeishiya/yabai) support.
 
@@ -8,13 +8,13 @@ Originally forked from https://github.com/kkga/nibar. And I heavly changed it to
 
 ### Wallpaper
 
-![img](./wallpaper.jpg)
+![img](./wallpaper.png)
 
 ### Usage screen-shots
 
 ![img](./ss.login.png)
 ![img](./ss.initial.png)
-![img](./ss.developmentv1.png)
+![img](./ss.developmentv2.png)
 
 ## Installation
 
@@ -38,40 +38,40 @@ You should add the theme colors into your Alacritty configuration in ~/.config/a
 colors:
   # Default colors
   primary:
-    background: '#ffffff'
-    foreground: '#424153'
+    background: '#4F6F73'
+    foreground: '#F2F9F6'
 
   # Cursor colors
   cursor:
-    cursor: '#cccccc'
-    text: '#000000'
+    cursor: '#1A4749'
+    text: '#F2F9F6'
 
   # Normal colors
   normal:
-    black: '#000000'
-    blue: '#5c6eb0'
-    cyan: '#5ca1b0'
-    green: '#74a05d'
-    magenta: '#a8629a'
-    red: '#b05e6c'
-    white: '#cccccc'
-    yellow: '#b2a34a'
+    black: '#1A4749'
+    blue: '#50A2A7'
+    cyan: '#1EC1C0'
+    green: '#A9D9C7'
+    magenta: '#7BA69E'
+    red: '#04D9B2'
+    white: '#F2F9F6'
+    yellow: '#05F2C7'
 
   # Bright colors
   bright:
-    black: '#424153'
-    blue: '#6d87c7'
-    cyan: '#6db1c7'
-    green: '#8fbd70'
-    magenta: '#c37fbf'
-    red: '#db6e7f'
-    white: '#ffffff'
-    yellow: '#d4c158'
+    black: '#2C5D60'
+    blue: '#79C6C9'
+    cyan: '#3DE0DE'
+    green: '#CCEAE5'
+    magenta: '#9DBEB7'
+    red: '#29E8C4'
+    white: '#FFFFFF'
+    yellow: '#17F7E5'
 
   # Selection colors
   selection:
-    background: '#f0f0f0'
-    text: '#424153'
+    background: '#3A888B'
+    text: '#F2F9F6'
 ```
 
 ## Dependencies
